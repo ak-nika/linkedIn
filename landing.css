@@ -58,3 +58,70 @@ body{
     background-color: rgba(187, 221, 255, 0.445);
     color: rgb(0, 79, 157);
 }
+.two{
+    display: flex;
+}
+.wel{
+    color: rgb(143,88,73);
+    font-weight: 100;
+    font-size: 50px;
+}
+.man{
+    width: 650px;
+}
+.epp{
+    font-weight: 500;
+    color: rgb(113,116,113);
+    margin-top: 30px;
+}
+input{
+    background-color: white;
+    border: 1px solid black;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+}
+input:hover, input:focus-within{
+    background-color: gainsboro;
+    border: 2px solid black;
+}
+.fpdiv{
+    margin: 20px 0px;
+}
+.fp{
+    text-decoration: none;
+    color: rgb(10,102,194);
+    font-weight: 500;
+}
+.sis{
+    background-color: rgb(10,102,194);
+    color: white;
+    border: none;
+    border-radius: 40px;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.or{
+    color: rgb(25,25,47);
+    margin-left: 140px;
+}
+.google{
+    color: rgb(102,102,102);
+    background-color: transparent;
+    width: 300px;
+    height: 40px;
+    border: 1.5px solid rgb(218,220,224);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    transition: all 0.2s ease-in;
+}
+.google:hover{
+    border: 1.5px solid rgb(100, 177, 255);
+    background-color: rgba(134, 194, 255, 0.452);
+}
+.nt{
+    border: 1px solid black;
+    width: 300px;
+    display: block;
+}
