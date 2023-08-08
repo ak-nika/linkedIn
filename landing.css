@@ -9,6 +9,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 .lo{
     margin-left: 60px;
@@ -60,6 +61,12 @@ body{
 }
 .two{
     display: flex;
+    flex-wrap: wrap;
+}
+.ll{
+    padding: 50px;
+    flex-wrap: wrap;
+    width: 50%;
 }
 .wel{
     color: rgb(143,88,73);
@@ -67,7 +74,8 @@ body{
     font-size: 50px;
 }
 .man{
-    width: 650px;
+    width: 600px;
+    margin-top: 90px;
 }
 .epp{
     font-weight: 500;
@@ -124,4 +132,36 @@ input:hover, input:focus-within{
     border: 1px solid black;
     width: 300px;
     display: block;
+}
+@media (max-width: 990px) {
+    .fo,.line{
+        display: none;
+    }
+    .ll{
+        margin-left: 5px;
+    }
+    .man{
+        width: 50%;
+    }
+}
+@media (max-width: 766px) {
+    .ll{
+        display: block;
+        width: 100%;
+    }
+    .or{
+        text-align: center;
+        margin-right: 150px;
+    }
+    .google, .nt, .sis{
+        width: 100%;
+    }
+    .man{
+        width: 30%;
+        display: block;
+        margin: auto;
+    }
+    input{
+        width: 100%;
+    }
 }
