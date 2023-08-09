@@ -3,68 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Join now</title>
+    <title>Sign In</title>
     <link rel="stylesheet" href="icofont/icofont/icofont.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <style>
-        .one{
-            background-color: rgb(243,242,240);
-        }
         img{
             width: 150px;
             margin: 20px 0px 0px 50px;
         }
-        h1{
-            text-align: center;
-            font-weight: 400;
-        }
         form{
-            width: 450px;
-            height: 400px;
-            background-color: white;
-            margin: auto;
+            width: 350px;
+            height: 530px;
+            box-shadow: 0px 0px 10px gray;
             padding-left: 25px;
-            padding-top: 20px;
+            margin: auto;
             border-radius: 10px;
+            padding-top: 20px;
+        }
+        h1{
+            font-size: 35px;
         }
         input{
+            margin-top: 30px;
             background-color: white;
+            width: 300px;
+            height: 50px;
             border: 1px solid black;
-            width: 400px;
-            height: 30px;
-            border-radius: 5px;
         }
-        input:hover, input:focus-within{
-            background-color: gainsboro;
-            border: 2px solid black;
+        .fp{
+            text-decoration: none;
+            color: rgb(10,126,212);
+            font-weight: 600;
+            padding: 5px;
+            border-radius: 20px;
+            margin-bottom: 30px;
         }
-        .blue, .blues{
-            color: rgb(10,114,206);
+        .fp:hover{
+            text-decoration: underline;
+            background-color: rgba(90, 184, 255, 0.671);
+        }
+        .sia{
+            color: white;
+            font-weight: 600;
             text-decoration: none;
         }
-        .blues{
-            font-weight: 600;
-        }
-        .blues:hover{
-            text-decoration: underline;
-        }
-        .agg{
-            font-weight: 500;
-            text-align: center;
-            font-size: 10px;
-            margin-right: 25px;
-        }
-        .agr{
-            background-color: rgb(10,114,206);
+        .si{
+            background-color: rgb(7,92,177);
             color: white;
-            border: none;
-            width: 400px;
+            font-weight: 600;
+            width: 300px;
             height: 50px;
-            border-radius: 40px;
-            font-weight: 700;
+            border: none;
+            border-radius: 50px;
         }
-        .agr:hover{
-            background-color: rgb(0, 48, 91);
+        .si:hover{
+            background-color: rgb(0, 45, 90);
+            
         }
         .or{
             text-align: center;
@@ -73,20 +67,18 @@
             background-color: transparent;
             color: black;
             border: 1px solid black;
-            width: 400px;
+            width: 300px;
             height: 50px;
             border-radius: 40px;
             font-weight: 700;
+            margin-bottom: 30px;
         }
         .google:hover{
             border: 2px solid black;
         }
-        .al{
+        .new{
             text-align: center;
-        }
-        .look{
-            text-align: center;
-            margin-bottom: 10px;
+            margin-top: 10px;
         }
         .und{
             text-decoration: none;
@@ -112,38 +104,37 @@
             font-size: 10px;
         }
         @media (max-width: 766px) {
+            .eight{
+                display: none;
+            }            
             form{
                 width: 100%;
-            }      
-            .agr{
-                background-color: rgb(10,114,206);
+                box-shadow: none;
             }
-            input, .epp, .agr, .google{
-                margin-left: 150px;
+            input, button{
+                display: block;
+                width: 90%;
             }
-            .one{
-                background-color: white;
-            }      
+            .google, .si{
+                width: 90%;
+            }
         }
     </style>
 </head>
 <body>
-    <div class="one">
-        <img src="logo.png" alt="">
-        <h1>Make the most of your professional life</h1>
-        <form action="">
-            <p class="epp">Email or phone number</p>
-            <input type="email">
-            <p class="epp">Password (6+ characters)</p>
-            <input type="password"> 
-            <p class="agg">By clicking Agree & Join, you agree to the LinkedIn <a href="" class="blue">User Agreement</a>, <a href="" class="blue">Privacy Policy</a>, and <a href="" class="blue">Cookie Policy</a>.</p>
-            <button class="agr">Agree & Join</button>
-            <p class="or">or</p>
-            <button class="google"><i class="icofont-google-plus"></i>Continue with Google</button>
-            <p class="al">Already on LinkedIn? <a href="Sign in.html" class="blues">Sign in</a></p>
-        </form>
-        <p class="look">Looking to create a apge for a business? <a href="" class="blues">Get help</a></p>
-    </div>
+    <img src="logo.png" alt="">
+    <form action="">
+        <h1>Sign in</h1>
+        <p class="stay">Stay updated on your professional world</p>
+        <input type="email" placeholder="Email or Phone">
+        <input type="password" placeholder="Password">
+        <a href="" class="fp">Forgot password?</a>
+        <a href="" class="sia"><button class="si">Sign in</button></a>
+        <p class="or">or</p>
+        <button class="google"><i class="icofont-google-plus"></i>Continue with Google</button>
+        <button class="google"><i class="icofont-brand-apple"></i>Sign in with Apple</button>
+    </form>
+    <p class="new">New to LinkedIn? <a href="Join now.html" class="fp">Join Now</a></p>
     <section class="eight">
         <img src="logo.png" alt="" class="sml">
         <p class="cc">© 2023</p>

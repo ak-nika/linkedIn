@@ -57,6 +57,10 @@ body{
     color: rgb(10,102,194);
     border: 1.5px solid rgb(10,102,194);
 }
+.sia{
+    text-decoration: none;
+    color: rgb(10,102,194);
+}
 .si:hover{
     background-color: rgba(187, 221, 255, 0.445);
     color: rgb(0, 79, 157);
