@@ -4,6 +4,7 @@
 }
 body{
     font-family: sans-serif;
+    flex-wrap: wrap;
 }
 .one{
     display: flex;
@@ -182,6 +183,7 @@ input:hover, input:focus-within{
 }
 .five{
     display: flex;
+    flex-wrap: wrap;
 }
 .co,.ch{
     width: 50%;
@@ -193,6 +195,44 @@ input:hover, input:focus-within{
 }
 .couch{
     width: 200px;
+}
+.who, .maw{
+    width: 50%;
+}
+.who{
+    background-color: rgb(243,242,240);
+    padding: 70px 0px 0px 40px;
+}
+.mow{
+    width: 620px;
+    margin: auto;
+}
+.an{
+    margin-bottom: 50px;
+}
+.br{
+    border: none;
+    width: 400px;
+    height: 50px;
+    background-color: rgb(234,230,223);
+    text-align: left;
+    padding-left: 10px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.br:hover{
+    background-color: rgb(225,218,208);
+}
+.six{
+    background-image: url(static.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 30px;
+    padding-bottom: 400px;
+}
+.jy{
+    font-size: 60px;
+    margin: 0px 0px 0px 30px;
 }
 @media (max-width: 990px) {
     .fo,.line{
