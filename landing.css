@@ -116,6 +116,9 @@ input:hover, input:focus-within{
     height: 50px;
     margin-bottom: 20px;
 }
+.sis:hover{
+    background-color: rgb(0, 37, 74);
+}
 .or{
     color: rgb(25,25,47);
     margin-left: 140px;
