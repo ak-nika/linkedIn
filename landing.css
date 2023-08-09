@@ -48,7 +48,7 @@ body{
     border-radius: 70px;
     font-size: 20px;
 }
-.jn:hover{
+.jn:hover, .ma:hover{
     background-color: rgba(220, 220, 220, 0.495);
 }
 .si{
@@ -132,6 +132,67 @@ input:hover, input:focus-within{
     border: 1px solid black;
     width: 300px;
     display: block;
+}
+.three{
+    background-color: rgb(243,242,240);
+    display: flex;
+    padding: 50px 30px;
+}
+.four{
+    display: flex;
+    padding: 50px 30px;
+}
+.oe, .st{
+    color: rgb(24,24,24);
+    font-weight: 100;
+}
+.oe{
+    font-size: 50px;
+}
+.st{
+    font-size: 20px;
+}
+.ls{
+    width: 50%;
+}
+.rs{
+    width: 50%;
+}
+.ma{
+    background-color: transparent;
+    padding: 8px 30px;
+    border: 1.5px solid black;
+    border-radius: 25px;
+    margin: 0px 0px 10px 0px;
+}
+.sa{
+    background-color: transparent;
+    color: rgb(40,102,194);
+    border: 1.5px solid rgb(40,102,194);
+    padding: 8px 30px;
+    margin: 0px 0px 10px 0px;
+    font-weight: 600;
+    border-radius: 30px;
+}
+.sa:hover{
+    background-color: rgba(151, 203, 255, 0.523);
+}
+.py{
+    color: rgb(178,64,32);
+}
+.five{
+    display: flex;
+}
+.co,.ch{
+    width: 50%;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+.con{
+    font-weight: 100;
+}
+.couch{
+    width: 200px;
 }
 @media (max-width: 990px) {
     .fo,.line{
