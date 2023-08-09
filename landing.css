@@ -40,14 +40,15 @@ body{
     background-color: rgb(178,178,178);
     border-radius: 5px;
 }
-.jn{
+.jn, .jna{
     border: none;
     background-color: transparent;
-    color: black;
+    color: rgb(102,102,102);
     width: 100px;
     height: 50px;
     border-radius: 70px;
     font-size: 20px;
+    text-decoration: none;
 }
 .jn:hover, .ma:hover{
     background-color: rgba(220, 220, 220, 0.495);
@@ -134,7 +135,7 @@ input:hover, input:focus-within{
     width: 300px;
     display: block;
 }
-.three{
+.three, .nine{
     background-color: rgb(243,242,240);
     display: flex;
     padding: 50px 30px;
@@ -182,7 +183,7 @@ input:hover, input:focus-within{
 .py{
     color: rgb(178,64,32);
 }
-.five{
+.five, .ten{
     display: flex;
     flex-wrap: wrap;
 }
@@ -283,6 +284,12 @@ input:hover, input:focus-within{
     .man{
         width: 50%;
     }
+    .three, .four, .five{
+        display: block;
+    }
+    .ls, .rs, .co, .ch{
+        width: 100%;
+    }
 }
 @media (max-width: 766px) {
     .ll{
@@ -303,5 +310,23 @@ input:hover, input:focus-within{
     }
     input{
         width: 100%;
+    }
+    .nine, .ten{
+        display: block;
+    }
+    .maw{
+        display: none;
+    }
+    .who, .br{
+        width: 100%;
+    }
+    .six{
+        background-image: none;
+    }
+    .jy{
+        margin-bottom: 0px;
+    }
+    .seven{
+        display: block;
     }
 }
