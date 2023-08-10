@@ -80,6 +80,8 @@ body{
 .icon{
     color: rgb(102,102,102);
     text-decoration: none;
+    border: none;
+    background-color: transparent;
 }
 .icofont-home{
     margin-left: 10px;
@@ -102,21 +104,57 @@ body{
 .icon:hover, .icofont:focus-within{
     color: black;
 }
+.ac{
+    width: 70px;
+}
+.zz{
+    position: relative;
+}
 .ww{
-    background-color: rgb(32, 33, 36);
-    width: 300px;
+    width: 200px;
     height: 110px;
-    border-radius: 20px 20px 5px 5px;  
-    margin: 8px 8px 0px 8px;
+    border-radius: 0px 0px 0px 0px;  
+    margin: 0px 0px 0px 5px;
+}
+.vv{
+   border-radius: 20px;
+   border: 1.5px solid rgb(10,102,194); 
+   background-color: white;
+   color: rgb(10,102,194);
+    width: 190px;
+    margin-left: 5px;
 }
 header{
     display: flex;
 }
 .yy{
-    background-color: aqua;
+    background-color: white;
     border: none;
-    height: 25px;
-    width: 25px;
-    border-radius: 15px;
+    height: 310px;
+    width: 210px;
+    border-radius: 10px 0px 10px 10px;
     color: black;
+    position: absolute;
+    right: -5px;
+    border: 1px solid gainsboro;
+    display: none;
+}
+.zz:focus-within .yy{
+    display: block;
+}
+.acc{
+    font-weight: 500;
+}
+.tt{
+    width: 200px;
+    padding-left: 10px;
+    margin-left: 5px;
+}
+.sec{
+    text-decoration: none;
+    color: rgb(102,102,102);
+    display: block;
+}
+.sec:hover{
+    text-decoration: underline;
 }
