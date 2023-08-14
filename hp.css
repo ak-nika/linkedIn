@@ -4,7 +4,6 @@
 }
 body{
     font-family: sans-serif;
-    background-color: rgb(243,242,239);
 }
 .one{
     background-color: white;
@@ -162,6 +161,199 @@ header{
 }
 .sec:hover{
     text-decoration: underline;
+}
+.two{
+    background-color: rgb(243,242,239);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.pfp{
+    width: 50px;
+    margin: 10px 0px 10px 100px;
+}
+.left{
+    width: 20%;
+}
+.lt{
+    background-color: white;
+    border-radius: 10px;
+}
+.wlcm{
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    color: black;
+}
+.wlcm:hover, .pho:hover, .lbt:hover{
+    text-decoration: underline;
+}
+.pho{
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    color: rgb(10,102,194);
+    margin-left: 85px;
+}
+.byn{
+    text-decoration: none;
+}
+.cg{
+    border: none;
+    background-color: white;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+.cgi{
+    display: block;
+    border-radius: 0px 0px 10px 10px;
+    margin-top: 5px;
+    padding: 5px 0px;
+}
+.cg:hover, .dmor:hover, .sap:hover{
+    background-color: rgb(235,235,235);
+}
+.cnn{
+    color: rgb(113,113,113);
+    font-size: 13px;
+    text-decoration: none;
+}
+.gyn{
+    color: black;
+    font-size: 15px;
+}
+.lbot{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.dmor{
+    border: none;
+    background-color: white;
+    text-align: center;
+    color: rgb(113,113,113);
+    font-weight: 600;
+    width: 100%;
+    padding: 10px 0px;
+    border-radius: 0px 0px 10px 10px;
+}
+.lbt{
+    color: rgb(10,102,194);
+    font-weight: 700;
+    text-decoration: none;
+    display: block;
+    font-size: 13px;
+}
+.pls{
+    display: flex;
+    justify-content: space-between;
+}
+.plus{
+    color: rgb(102,102,102);
+    padding: 5px;
+    border-radius: 100%;
+    transition: all 0.2s linear;
+}
+.plus:hover{
+    color: black;
+    background-color: rgb(102,102,102);
+    text-decoration: none;
+}
+.mid{
+    width: 50%;
+}
+.mt{
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    padding: 10px 0px;
+}
+.pfpp{
+    width: 50px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.sap{
+    width: 90%;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid black;
+    padding-left: 10px;
+    font-size: 15px;
+    background-color: white;
+}
+.apew{
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(102,102,102);
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+.arti, .pict, .vide, .calen{
+    color: rgb(55,143,233);
+    font-size: 25px;
+}
+.vide{
+    color: rgb(95,155,65);
+}
+.calen{
+    color: rgb(195,125,22);
+}
+.arti{
+    color: rgb(225,103,69);
+}
+.midcon{
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 0px 10px;
+}
+.linkedin_news{
+    display: flex;
+    align-items: start;
+    padding-top: 10px;
+}
+.st_ln{
+    line-height: 15px;
+}
+.lnews{
+    width: 50px;
+}
+.lnaf{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+.aweek, .lac{
+    text-decoration: none;
+    color: rgb(113,113,113);
+    font-size: 10px;
+}
+.ln-img{
+    width: 100%;
+}
+.lac{
+    text-align: right;
+}
+.midcon-icons{
+    color: rgb(102,102,102);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 @media (max-width: 1022px) {
     .sertwo{
