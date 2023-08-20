@@ -13,6 +13,9 @@ body{
     flex-wrap: wrap;
     width: 100%;
     height: 60px;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 .logo{
     width: 40px;
@@ -170,7 +173,11 @@ header{
 }
 .pfp{
     width: 50px;
-    margin: 10px 0px 10px 100px;
+}
+.ppffpp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .left{
     width: 20%;
@@ -178,6 +185,8 @@ header{
 .lt{
     background-color: white;
     border-radius: 10px;
+    border: 1px solid gainsboro;
+    padding: 10px;
 }
 .wlcm{
     text-align: center;
@@ -230,6 +239,10 @@ header{
     background-color: white;
     margin-top: 10px;
     border-radius: 10px;
+    border: 1px solid gainsboro;
+    padding: 10px;
+    position: sticky;
+    top: 90px;
 }
 .dmor{
     border: none;
@@ -264,7 +277,7 @@ header{
     text-decoration: none;
 }
 .mid{
-    width: 50%;
+    width: 40%;
 }
 .mt{
     background-color: white;
@@ -355,6 +368,72 @@ nav{
     align-items: center;
     justify-content: space-around;
 }
+.right{
+    width: 25%;
+    flex-wrap: wrap;
+}
+.rt{
+    background-color: white;
+    padding: 10px 10px;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+}
+.rt-l{
+    border-radius: 100%;
+}
+.follow{
+    border: 1.3px solid rgb(113,113,113);
+    color: rgb(102,102,102);
+    background-color: white;
+    padding: 0px 10px;
+    border-radius: 20px;
+    height: 30px;
+    width: 90px;
+    transition: all linear 0.2s;
+    margin-left: 40px;
+}
+.follow:hover{
+    border: 3px solid rgb(113,113,113);
+    background-color: rgba(128, 128, 128, 0.8);
+}
+.rm{
+    margin-top: 10px;
+}
+.see{
+    width: 100%;
+    border-radius: 20px;
+}
+.rb-link{
+    text-decoration: none;
+    color: rgb(102,102,102);
+    font-size: 13px;
+}
+.rb-link:hover{
+    text-decoration: underline;
+    color: rgb(10,102,194);
+}
+.rbb, .rb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rb{
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+.sm-img{
+    width: 50px;
+}
+.lin-cor{
+    color: rgb(102,102,102);
+    font-size: 12px;
+    padding-top: 15px;
+}
+.stik{
+    position: sticky;
+    top: 90px;
+}
 @media (max-width: 1022px) {
     .sertwo{
         display: block;
@@ -366,6 +445,15 @@ nav{
         height: 40px;
         margin-top: 10px;
     }
+    .right{
+        display: none;
+    }
+    .left{
+        width: 40%;
+    }
+    .mid{
+        width: 50%;
+    }
 }
 @media (max-width: 850px) {
     .ip{
@@ -373,5 +461,15 @@ nav{
     }    
     .sertwo{
         margin-top: 15px;
+    }
+    .two{
+        display: block;
+    }
+    .left, .mid{
+        width: 80%;
+        margin: auto;
+    }
+    .left{
+        margin-bottom: 30px;
     }
 }
