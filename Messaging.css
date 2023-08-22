@@ -21,11 +21,11 @@ body{
 .sertwo{
     display: none;
 }
-.serbar{
+.serbars, .serbar{
     background-color: rgb(238,243,248);
     transition: all 0.2s ease-in-out;
     width: 225px;
-    border-radius: 10px;
+    border-radius: 5px;
     position: relative;
 }
 .serbar:focus-within{
@@ -163,6 +163,113 @@ header{
 .sec:hover{
     text-decoration: underline;
 }
+.two{
+    background-color: rgb(243,242,239); 
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.bord{
+    display: flex;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    background-color: white;
+    width: 51%;
+}
+.left{
+    width: 50%;
+    padding: 0px 10px;
+}
+.mes{
+    padding-top: 13px;
+    font-weight: 500;
+}
+.mesa{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+}
+.fonts{
+    color: rgb(102,102,102);
+    font-size: larger;
+}
+.serbars{
+    width: 100%;
+    padding: 0px 10px;
+}
+.luf{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    padding-top: 10px;
+    background-color: rgb(238,243,248);
+    margin-top: 10px;
+}
+.dp{
+    width: 50px;
+    border-radius: 100%;
+    padding: 3px;
+}
+.twos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+}
+.sa span{
+    color: rgb(102,102,102);
+    font-size: 15px;
+    font-weight: 500;
+}
+.line{
+    background-color: gainsboro;
+    width: 1px;
+}
+.mid{
+    width: 50%;
+    padding-top: 43px;
+}
+.pns{
+    font-weight: 600;
+}
+.stf{
+    margin-left: 50px;
+}
+.right{
+    width: 25%;
+}
+.rb-link{
+    text-decoration: none;
+    color: rgb(102,102,102);
+    font-size: 13px;
+}
+.rb-link:hover{
+    text-decoration: underline;
+    color: rgb(10,102,194);
+}
+.rbb, .rb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rb{
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+}
+.sm-img{
+    width: 50px;
+}
+.lin-cor{
+    color: rgb(102,102,102);
+    font-size: 12px;
+    padding-top: 15px;
+}
+.ops{
+    text-align: right;
+}
 @media (max-width: 1022px) {
     .sertwo{
         display: block;
@@ -172,7 +279,13 @@ header{
     }
     .logo{
         height: 40px;
-        margin-top: 10px;
+        margin-top: 10px; 
+    }
+    .two{
+        display: block;
+    }
+    .bord, .right{
+        width: 100%;
     }
 }
 @media (max-width: 850px) {
@@ -181,5 +294,14 @@ header{
     }    
     .sertwo{
         margin-top: 15px;
+    }
+    .mid{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+    .ops{
+        display: none;
     }
 }

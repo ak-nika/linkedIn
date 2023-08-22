@@ -27,7 +27,7 @@ body{
     background-color: rgb(238,243,248);
     transition: all 0.2s ease-in-out;
     width: 225px;
-    border-radius: 10px;
+    border-radius: 5%;
     position: relative;
 }
 .serbar:focus-within{
