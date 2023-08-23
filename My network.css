@@ -233,8 +233,8 @@ header{
 .rit{
     background-color: white;
     border: 1px solid gainsboro;
-    padding: 5px 15px;
-    border-radius: 30px;
+    padding: 15px 15px;
+    border-radius: 10px;
 }
 .rit, .ribt{
     display: flex;
@@ -349,13 +349,16 @@ header{
     .sertwo{
         margin-top: 15px;
     }
+}
+@media (max-width: 760px) {
     .two{
+        padding: 0px 30px;
         display: block;
     }
     .people, .left, .right, .rit{
         width: 100%;
     }
-    .two{
-        padding: 0px 30px;
+    .right{
+        margin-top: 10px;
     }
 }
