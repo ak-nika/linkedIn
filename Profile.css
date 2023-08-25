@@ -13,7 +13,9 @@ body{
     align-items: center;
     flex-wrap: wrap;
     width: 100%;
-    height: 60px;
+    height: fit-content;
+    position: sticky;
+    top: 0;
 }
 .logo{
     width: 40px;
@@ -163,6 +165,175 @@ header{
 .sec:hover{
     text-decoration: underline;
 }
+.two{
+    background-color: rgb(243,242,240);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+}
+.left{
+    width: 70%;
+}
+.l-top, .analytics, .rt, .rm{
+    background-color: white;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.lt-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ltimg{
+    width: 150px;
+}
+nav{
+    display: flex;
+}
+.lt-left, .lt-right{
+    width: 50%;
+}
+.lt-left{
+    padding: 0px 0px 20px 20px;
+}
+.lt-left-top{
+    line-height: 10px;
+}
+.name{
+    font-weight: 600;
+    font-size: 30px;
+}
+.names{
+    font-weight: 600;
+    font-size: 20px;
+}
+.location{
+    color: rgb(121,121,121);
+    font-size: 13px;
+}
+.con-info{
+    text-decoration: none;
+    color: rgb(52,128,205);
+    font-weight: 600;
+}
+.con-info:hover{
+    text-decoration: underline;
+    color: rgb(52,128,205);
+}
+.open, .add-pro, .more{
+    transition: all 0.2s linear;
+    border-radius: 20px;
+    padding: 3px 10px;
+    height: 35px;
+    font-weight: 600;    
+}
+.open{
+    background-color: rgb(10,102,194);
+    color: white;
+    border: none;
+}
+.open:hover{
+    background-color: rgb(10, 74, 139);
+}
+.add-pro{
+    color: rgb(10,102,194);
+    border: 1.5px solid rgb(10,102,194);
+    background-color: white;
+    width: 165px;
+}
+.add-pro:hover{
+    border: 2px solid rgb(10,102,194);
+    background-color: rgba(93, 174, 255, 0.486);
+}
+.more{
+    border: 1.5px solid rgb(102,102,102);
+    color: rgb(102,102,102);
+    background-color: white;
+    width: 80px;
+}
+.more:hover{
+    border: 2px solid black;
+    background-color: rgba(161, 161, 161, 0.868);
+}
+.open-work{
+    line-height: 10px;
+    background-color: rgb(221,231,241);
+    width: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 20px;
+}
+.otw{
+    font-weight: 600;
+}
+.role{
+    color: rgb(60,63,65);
+}
+.static{
+    width: 40px;
+}
+.lt-right{
+    padding-left: 50px;
+}
+.wplace{
+    color: black;
+}
+.analytics{
+    margin-top: 20px;
+    padding: 10px 0px 20px 20px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.stat{
+    width: 60px;
+}
+.move{
+    width: 100px;
+}
+.right{
+    width: 20%;
+    
+}
+.rm, .rt{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+.see{
+    width: 100%;
+    border-radius: 20px;
+}
+.rb-link{
+    text-decoration: none;
+    color: rgb(102,102,102);
+    font-size: 13px;
+}
+.rb-link:hover{
+    text-decoration: underline;
+    color: rgb(10,102,194);
+}
+.rbb, .rb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(243,242,239);
+}
+.rb{
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-top: 20px;
+}
+.sm-img{
+    width: 50px;
+}
+.lin-cor{
+    color: rgb(102,102,102);
+    font-size: 12px;
+    padding-top: 15px;
+}
+
 @media (max-width: 1022px) {
     .sertwo{
         display: block;
@@ -181,5 +352,34 @@ header{
     }    
     .sertwo{
         margin-top: 15px;
+    }
+}
+@media (max-width: 766px) {
+    .two{
+        display: block;
+        padding: 0px 80px;
+    }
+    .left, .right{
+        width: 100%;
+    }    
+    .right{
+        margin-top: 20px;
+    }
+    .see{
+        width: 50%;
+    }
+    .rbs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    nav{
+        display: block;
+    }
+    .lt-left,.lt-right{
+        width: 80%;
+    }
+    .lt-right{
+        margin-bottom: 20px;
     }
 }

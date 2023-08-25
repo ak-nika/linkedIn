@@ -171,6 +171,9 @@ header{
     justify-content: space-around;
     padding-top: 30px;
 }
+.three{
+    background-color: rgb(243,242,239);
+}
 .pfp{
     width: 50px;
 }
