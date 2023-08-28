@@ -17,6 +17,67 @@ body{
     position: sticky;
     top: 0;
 }
+.accordion{
+    width: 20%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+}
+.acc-img{
+    width: 50px;
+}
+.serbarss{
+    background-color: rgb(238,243,248);
+    transition: all 0.2s ease-in-out;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    position: relative;
+}
+.serbarss main{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.lufs{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    background-color: white;
+    margin-top: 10px;
+}
+.navds{
+    display: block;
+    height: 50px;
+}
+.accordion-button{
+    height: 50px;
+}
+.accordion-button:hover, .lufs:hover{
+    background-color: rgb(235,235,235);
+}
+.dps{
+    width: 50px;
+    border-radius: 100%;
+    padding: 3px;
+}
+.twoss{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.sas span{
+    color: rgb(102,102,102);
+    font-size: 15px;
+    font-weight: 500;
+}
+.home{
+    color: black;
+}
 .logo{
     width: 40px;
 }
@@ -26,9 +87,10 @@ body{
 .serbar{
     background-color: rgb(238,243,248);
     transition: all 0.2s ease-in-out;
-    width: 225px;
+    width: 235px;
     border-radius: 5%;
     position: relative;
+    padding-left: 10px;
 }
 .serbar:focus-within{
     border: 1.5px solid;
