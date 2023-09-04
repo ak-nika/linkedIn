@@ -152,6 +152,9 @@ body{
     border: none;
     background-color: transparent;
 }
+.home{
+    color: black;
+}
 .icofont-home{
     margin-left: 10px;
 }

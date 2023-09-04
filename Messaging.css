@@ -73,9 +73,6 @@ body{
     font-size: 15px;
     font-weight: 500;
 }
-.home{
-    color: black;
-}
 .logo{
     width: 40px;
 }
@@ -149,6 +146,9 @@ body{
     text-decoration: none;
     border: none;
     background-color: transparent;
+}
+.home{
+    color: black;
 }
 .icofont-home{
     margin-left: 10px;
